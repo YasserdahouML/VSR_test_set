@@ -36,11 +36,16 @@ The Lip Reading Sentences-3 (LRS3) benchmark has primarily been the focus of int
 
 ## Downloading the data:
 
-Data can be found at this [link](https://drive.google.com/file/d/1Ok_Oyw0NzoGHZLyffZ4n-6qBmI0IGKmc/view?usp=drive_link)
-
-The test set is structured as follows:
+Data can be found at this [link](https://drive.google.com/file/d/1Ok_Oyw0NzoGHZLyffZ4n-6qBmI0IGKmc/view?usp=drive_link). The test set is structured as follows:
 ```bash
-
+WildVSR/
+│
+├── videos/
+│ ├── 00001.mp4
+│ └── 00001.mp4
+├── labels.json/
+  ├── '00001': 'label'
+│ └── '00004': 'label'
 ```
 
 ## Intended Use
