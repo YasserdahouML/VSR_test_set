@@ -14,30 +14,6 @@ Comparison of statistics between LRS3 and WildVSR.
 ![Lip2Vec Illustration](figure.png)
 
 
-## WildVSR leaderboard:
-
-| Method | WER (LRS3) | WER (WildVSR) |
-|--------|------------|------------|
-| **ASR Models**           |      |      |
-| Wav2vec2.0               | 6.1  | 21.8 | 
-| Whisper                  | 1.1  | 1.8  |
-| **Supervised**           |      |      |
-| Ma et al.                | 32.3 | 61.1 |
-| Prajwal et al.           | 40.6 | 75.1 |
-| Prajwal et al.           | 30.7 | 67.9 | 
-| Auto-AVSR                | 19.1 | 42.7 |
-| **Self-Supervised Base** |      |      |
-| AV-HuBERT                | 44.0 | 74.2 |
-| RAVen                    | 39.1 | 70.8 |
-| AV-HuBERT                | 34.8 | 61.0 |
-| **Self-Supervised Large**|      |      |
-| AV-HuBERT                | 41.6 | 71.4 |
-| AV-HuBERT                | 28.6 | 54.7 |
-| AV-HuBERT  w/ self-training |26.9 | 52.2 |
-| RAVen                       |27.8 | 54.9 |
-| RAVen  w/ self-training     | 23.1 | 50.0 | 
-
-
 ## Downloading the data:
 
 Data can be found at this [link](https://drive.google.com/file/d/1Ok_Oyw0NzoGHZLyffZ4n-6qBmI0IGKmc/view?usp=drive_link). The test set is structured as follows:
