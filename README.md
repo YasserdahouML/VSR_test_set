@@ -45,7 +45,7 @@ WildVSR/
 ├── labels.json
 
 ```
-The labels.json has the ```'video_ID': 'label'``` format, where each video_ID corresponds to the file names in the videos folder.
+The ```labels.json``` has the ```'video_ID': 'label'``` format, where each ```video_ID``` corresponds to the file names in the ```videos``` folder.
 ## Intended Use
 
 This dataset can be used to test models for visual speech recognition for English. It's particularly useful for research and development purposes in the field of audio-visual content processing. The data can be used to assess the performance of current and future models.
