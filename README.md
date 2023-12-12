@@ -9,6 +9,8 @@ This repository contains our benchmark **WildVSR**, a new test set for Visual Sp
 
 The Lip Reading Sentences-3 (LRS3) benchmark has primarily been the focus of intense research in visual speech recognition (VSR) during the last few years. As a result, there is an increased risk of overfitting to its excessively used test set, which is only one hour duration. To alleviate this issue, we build **WildVSR**, a new VSR test set by closely following the LRS3 dataset creation processes. We then evaluate and analyse the extent to which the current VSR models generalise to the new test data. We evaluate a broad range of publicly available VSR models and find significant drops in performance on our test set, compared to their corresponding LRS3 results.
 
+Comparison of statistics between LRS3 and WildVSR.
+
 ![Lip2Vec Illustration](figure.png)
 
 
