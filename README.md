@@ -26,6 +26,13 @@ WildVSR/
 
 ```
 The ```labels.json``` has the ```'video_ID': 'label'``` format, where each ```video_ID``` corresponds to the file names in the ```videos``` folder.
+
+You can use the ```wildvsr_test.py``` to load the data, note that all clips are cropped and transformed
+
+```bash
+python wildvsr_test.py --wildvsr_path=[path_to_data]
+```
+
 ## Intended Use
 
 This dataset can be used to test models for visual speech recognition for English. It's particularly useful for research and development purposes in the field of audio-visual content processing. The data can be used to assess the performance of current and future models.
